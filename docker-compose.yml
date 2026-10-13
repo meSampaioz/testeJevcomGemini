@@ -1,0 +1,5 @@
+services:
+  agente_ia:
+    build: ./agent
+    volumes:
+      - ./agent:/testejevcomGemini
